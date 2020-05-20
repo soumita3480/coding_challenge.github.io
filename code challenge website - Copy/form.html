@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    
+        <body>
+            <style>
+                body{
+                    
+                    background:linear-gradient(80deg,rgb(12, 80, 38),rgb(30, 48, 80));
+
+                    
+                }
+                h1{
+                    color:rgb(209, 17, 17);
+                    text-align: center;
+                    word-spacing: 3px;
+                    letter-spacing: 1px;
+                    position: relative; top:80px;
+                    text-shadow: 1px 1px 0px rgb(32, 29, 29);
+                }
+        form{
+            margin-left: 10em;
+            background-color: green;
+            padding-left: 10em;
+            padding-bottom: 7em;
+            padding-right: 10em;
+            margin-top: 1.8em;
+            font-family: sans-serif;
+            position: relative;right:290px;bottom:200px;
+        }
+        form div{
+            padding-top: 2em;
+            font-weight: 500;
+            font-size: x-large;
+            color :white;
+        }
+        
+        input{
+            box-sizing: 10px 10px 10px 10px;
+            font-size: x-large;
+            text-align: center;
+            color: red;
+            box-shadow: inset 3px 3px 2px 0 rgb(140, 114, 167);
+            
+        }
+    
+
+        .red{
+            float: right;
+            position: relative;top:200px;
+        }
+            </style>
+            
+    <h1>FILL ALL THE INFORMATION BELOW TO PARTICIPATE</h1><br>
+    <div class="red"><img src="lang.png" ></div>
+    <div style="display: inline-flex">
+        <a href="index.html" id="link" style="position: relative;left:1050px;top:500px;font-size: x-large;color:rgb(104, 236, 16);" onmouseover="getElementById('link').style.color='red'" onmouseout="getElementById('link').style.color='rgb(104, 236, 16)'">Click to go Home Page</a>
+    <form action="form.php" method="POST">
+    <div><input type="text" placeholder="Name" name='name'></div>
+    <div><input type="text" placeholder="Email-d" name='email'></div>
+    <div ><input type="number" placeholder="91+ Phone number" name='phno'></div>
+    <div class="button"><input type="checkbox" name="yes">Student
+    <input type="checkbox" name="yes">Employee</div>
+    <div>Choose a date for exam
+    <select name='choose'>
+        <option>4/10/2021</option>
+        <option>5/10/2021</option>
+        <option>6/10/2021</option>
+    </select></div>
+   <div><input type="submit" value="submit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="reset" value="reset"></div>
+            </form>
+            
+        </body>
+</html>
